@@ -15,7 +15,13 @@
     min-height: 100vh;
     margin: 0 auto;
   }
-  
+ 
+.image-note{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}  
   section {
     margin-top: 40px;
   }
@@ -24,6 +30,7 @@
     background-color: white;
     width: 100%;
     border-bottom: 1px solid;
+    border-right: 3px solid rgb(77, 54, 1);
   }
   #navbar li {
     color: #4e4d53;
@@ -148,6 +155,19 @@
     margin-top: -15px;
     padding-top: -5px;
   }
+  }
+
+  .redes-f{
+    color: blue;
+  }
+  .redes-git{
+    color: black;
+  }
+  .redes-ink{
+    color: rgb(237, 118, 14);
+  }
+  .redes-ins{
+    color: red;
   }
 
 
