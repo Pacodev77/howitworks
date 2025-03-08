@@ -107,7 +107,7 @@
   }
 
   /*Diseño responsivo*/
-  @media only screen and (min-width: 815px) {
+  @media only screen and (min-width: 715px) {
     body {
       flex-direction: row;
     }
@@ -120,9 +120,11 @@
     overflow-x: scroll;
   }
   .lista {
+    margin-left: 10px;
     margin: 10px;
     padding: 5px;
     min-height: 1.1em;
+    list-style: none;
   }
   
   .image {
@@ -134,3 +136,18 @@
     margin-left: 300px;
   }
   }
+
+  .leaves {
+    padding-bottom: 15px;
+  }
+  .margin-end { 
+    margin-left: 5px; /* Ajusta el valor según sea necesario */ 
+    display: flex;
+    align-items: center;
+  }
+
+  .margin-top-end{
+    margin-top: -15px;
+    padding-top: -5px;
+  }
+
