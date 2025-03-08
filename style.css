@@ -135,7 +135,6 @@
     margin: 0 20px;
     margin-left: 300px;
   }
-  }
 
   .leaves {
     padding-bottom: 15px;
@@ -145,9 +144,12 @@
     display: flex;
     align-items: center;
   }
-
   .margin-top-end{
     margin-top: -15px;
     padding-top: -5px;
   }
+  }
+
+
+  
 
